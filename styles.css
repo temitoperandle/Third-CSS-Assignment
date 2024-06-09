@@ -1,0 +1,92 @@
+
+body, h1, h2, p, nav, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  height: 40px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+}
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tribute {
+  text-align: center;
+}
+
+.tribute h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.tribute p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.message {
+  margin-bottom: 1.5rem;
+}
+
+.message h2 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.message p {
+  font-size: 1rem;
+  color: #666;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #030000;
+}
+
+footer h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  header nav a {
+      margin-left: 0;
+      margin-top: 0.5rem;
+  }
+}
